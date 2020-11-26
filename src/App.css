@@ -31,6 +31,26 @@ h1 {
 	
 }
 
+.Links {
+	color: white;
+	margin-left: 30px;
+	padding-top: 1px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+nav a .navbar-brand {
+	color: red;
+}
+
+.Links:hover {
+	color: white;
+}
+
+a {
+	color: white;
+}
+
 .navigation-sub {
 	font-size: large;
 	font-family: "Gravity-Regular";

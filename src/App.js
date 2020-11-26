@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 // Navbar stuff
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -30,9 +30,10 @@ class App extends Component {
 						<Navbar.Toggle aria-controls="basic-navbar-nav"/>
 						<Navbar.Collapse id="basic-navbar-nav"> 
 							<Nav className="mr-auto">
-								<Nav.Link href="joshplateros.github.io/articles"> Articles </Nav.Link>
-								<Nav.Link href="/projects"> Projects </Nav.Link>
-								<Nav.Link href={Resume} download> Resume </Nav.Link>
+								{/* Regular "Link" works*/}
+								<Link className="Links" to="/articles"> Articles </Link>
+								<Link className="Links" to="/projects"> Projects </Link>
+								<a className="Links" href={Resume} download> Resume </a>
 							</Nav>	
 						</Navbar.Collapse>
 					</Navbar>
@@ -41,11 +42,11 @@ class App extends Component {
 
 				</div>
 			</div>
-
+		<Switch>
 			<Route exact path="/" component={Home} />
-			<Route path="joshplateros.github.io/articles" component={Articles} />
+			<Route path="/articles" component={Articles} />
 			<Route path="/projects" component={Projects} />
-
+		</Switch>
 		  </div>
 		</BrowserRouter>
 	);
