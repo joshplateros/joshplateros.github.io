@@ -19,7 +19,7 @@ function About(props) {
 			<div>
 				<Image id="profilePhoto" src={picture} height="400" roundedCircle/>
 				<div className="mainPara">
-					<p> HELLO friends, my name is Joshua Plateros and I am currently a Senior at the University of Nevada, Reno with a major in Computer Science. My passions include winning in video games, playing music, as well as learning different frameworks and other technologies related to the CS field! </p>
+					<p> Hello friends, my name is Joshua Plateros and I am currently a Senior at the University of Nevada, Reno with a major in Computer Science. My passions include winning in video games, playing music, as well as learning different frameworks and other technologies related to the CS field! </p>
 					<ul class="socialMedia">
 						<li><a href="https://github.com/joshplateros"> <i class="fab fa-github fa-2x"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/joshua-plateros-18b76b194/"><i class="fab fa-linkedin fa-2x"></i></a></li>

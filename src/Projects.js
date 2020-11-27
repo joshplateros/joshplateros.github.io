@@ -3,7 +3,7 @@ import './Projects.css';
 
 function Projects(props) {
 	return (
-		<div className="Projects">
+		<div className="Project">
 			<dl class="ProjectsList">
 				<dt> <h2> <a href="https://github.com/joshplateros/Personal-Website"> Personal Website </a><i class="fas fa-terminal"></i></h2></dt>
 				<dd id="codingLanguages"> JavaScript, CSS/HTML, React </dd>

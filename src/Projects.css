@@ -1,4 +1,4 @@
-.Projects {
+.Project {
     padding-bottom: 10px;
 	/* Fade in animation */ 
 	animation: fadeIn ease 10s;
@@ -6,7 +6,13 @@
 	-moz-animation: fadeIn ease 1s;
 	-o-animation: fadeIn ease 1s;
     -ms-animation: fadeIn ease 1s;
-    text-align: center;
+	text-align: center;
+	
+}
+
+@font-face {
+	font-family: Gravity-Regular;
+	src: url('./fonts/Gravity-Regular.otf') format('opentype');
 }
 
 dl.ProjectsList {
@@ -15,20 +21,19 @@ dl.ProjectsList {
 	padding: 0;
 }
 
-dt {
-    padding: 20px;
+h2 {
+	font-family: "Gravity-Regular";
 }
 
 dd {
-    margin-bottom: 100px;
-    margin-left: 70%;
-    
+    margin-bottom: 20px;
 }
 
 #codingLanguages {
     color: #888;
     font-style: italic;
-    font-weight: bold;
+	font-weight: bold;
+	text-align:center;
 }
 
 i {

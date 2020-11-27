@@ -29,7 +29,7 @@ class App extends Component {
 						<Navbar.Brand href="/"> Home </Navbar.Brand>
 						<Navbar.Toggle aria-controls="basic-navbar-nav"/>
 						<Navbar.Collapse id="basic-navbar-nav"> 
-							<Nav className="mr-auto">
+							<Nav>
 								{/* Regular "Link" works*/}
 								<Link className="Links" to="/articles"> Articles </Link>
 								<Link className="Links" to="/projects"> Projects </Link>
