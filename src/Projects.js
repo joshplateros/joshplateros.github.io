@@ -5,7 +5,7 @@ function Projects(props) {
 	return (
 		<div className="Project">
 			<dl class="ProjectsList">
-				<dt> <h2> <a href="https://github.com/joshplateros/Personal-Website"> Personal Website </a><i class="fas fa-terminal"></i></h2></dt>
+				<dt> <h2> <a href="https://github.com/joshplateros/joshplateros.github.io"> Personal Website </a><i class="fas fa-terminal"></i></h2></dt>
 				<dd id="codingLanguages"> JavaScript, CSS/HTML, React </dd>
 				<dd> Basic elementary portfolio website made to showcase my resume (and for me 
 					to have a personal website.) <br/>Will soon add articles where I rant
