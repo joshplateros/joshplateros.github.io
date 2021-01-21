@@ -20,6 +20,7 @@ function About(props) {
 				<Image id="profilePhoto" src={picture} height="400" roundedCircle/>
 				<div className="mainPara">
 					<p> Hello friends, my name is Joshua Plateros and I am currently a Senior at the University of Nevada, Reno, majoring in Computer Science and Engineering. My passions include winning in video games, playing music, as well as learning different frameworks and other technologies related to the CS field! </p>
+					<p> My previous projects include several Machine Learning projects (such as creating a simple perceptron algorithm from scratch), as well as some other personal projects. You can read more under the "Projects" tab! </p>
 					<ul class="socialMedia">
 						<li><a href="https://github.com/joshplateros"> <i class="fab fa-github fa-2x"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/joshua-plateros-18b76b194/"><i class="fab fa-linkedin fa-2x"></i></a></li>
