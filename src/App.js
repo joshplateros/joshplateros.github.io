@@ -31,7 +31,6 @@ class App extends Component {
 						<Navbar.Collapse id="basic-navbar-nav"> 
 							<Nav>
 								{/* Regular "Link" works*/}
-								<Link className="Links" to="/articles"> Articles </Link>
 								<Link className="Links" to="/projects"> Projects </Link>
 								<a className="Links" href={Resume} download> Resume </a>
 							</Nav>	
